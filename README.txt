@@ -1,8 +1,30 @@
-Gabrielle Latreille
-Umai Balendra
+# Ping Pong
+2 player ping pong game
 
-Install: npm install socket.io
-Launch: node server.js
-Testing: http://localhost:3000/assignment3.html
-There is no UserID or Password necessary to access our app.
--Enhancement: scoreboard on the bottom
+## Getting started
+
+### Prerequisites
+```
+nodejs
+```
+
+### Installing
+```
+npm install socket.io
+```
+
+### Launch for testing
+```
+node server.js
+```
+
+## Deployement
+> Not yet deployed
+
+## Built with
+socket.io
+
+## Authors
+Base code: Louis Nel
+Basic Enhancements: Gabrielle L and Umai B
+Further Enhancements: Gabrielle L
