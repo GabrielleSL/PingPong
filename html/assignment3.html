@@ -1,0 +1,38 @@
+<!-- Gabrielle Latreille (101073284)
+Umai Balendra (101080788) -->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Canvas Size</title>
+  <script src="jquery-1.11.3.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+  <style>
+  </style>
+</head>
+
+
+<body>
+
+  <div>
+    <label id='score1'>0</label>
+    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input id="b1" type="button" class="button1 button" value="player1" onclick="becomePlayer1()">
+    <a href='assignment3.html'><input id="leave" type="button" class="button" value="Leave" disabled ></a>
+    <input id="b2" type="button" class="button2 button" value="player2" onclick="becomePlayer2()">
+    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <label id='score2'>0</label>
+  </div>
+
+  <canvas id='canvas1' class='canvas' width='950' height='635'>
+    Canvas not supported
+  </canvas>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src='assignment3.js'></script>
+
+
+
+</body>
+
+</html>

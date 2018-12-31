@@ -1,0 +1,60 @@
+body {
+  background: #070707;
+  /* so that there is no scroll option in the browser */
+  overflow: hidden;
+}
+
+/*element selectors: */
+
+canvas {
+  margin: 20px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+p {
+  font-size: 40px;
+  margin-left: -25px;
+  padding-left: 50%;
+  color: #ffffff;
+}
+
+div {
+  margin-left: -240px;
+  padding-left: 50%;
+}
+
+label {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+/* class selectors: */
+
+.canvas {
+  background: #000000;
+  border: thin inset #aaaaaa;
+}
+
+.button {
+  border-radius: 8px;
+  border-color: #000000;
+}
+
+.button1 {
+  background-color: CornflowerBlue;
+}
+
+.button2 {
+  background-color: DarkOrchid;
+}
+
+.button:hover:enabled {
+  filter: opacity(.5);
+}
+
+.button:disabled {
+  color: #dddddd;
+}
